@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-            NavigationBar()
+  var body: some View {
+    VStack {
+      NavigationBar()
+        .padding(.horizontal)
+      
+      ScrollView(showsIndicators: false) {
+        VStack {
+          OrderTypeGridView()
         }
+      }
     }
+  }
+}
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }
