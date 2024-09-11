@@ -12,13 +12,15 @@ struct NavigationBar: View {
         HStack {
             Spacer()
             Button("R. Saldanha, 2185") {
-                
+              // action
             }
             .foregroundColor(.black)
             .font(.subheadline)
             .fontWeight(.bold)
             Spacer()
-            Button(action: {}) {
+            Button(action: {
+              // action
+            }) {
                 Image(systemName: "bell.badge")
                     .font(.title3)
                     .foregroundColor(.red)
