@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,21 @@
 		1BC7AB5E2AB6ACF6009A5AC2 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		1BC7AB602AB6B0BE009A5AC2 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1BD4DD142CD4702A005AAF90 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CarouselItemView.swift,
+				CarouselTabView.swift,
+			);
+			target = 1BC7AB412AB69566009A5AC2 /* NaSuaPorta */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1BD4DD102CD46FF4005AAF90 /* CarouselView */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (1BD4DD142CD4702A005AAF90 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CarouselView; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1BC7AB3F2AB69566009A5AC2 /* Frameworks */ = {
@@ -61,6 +76,7 @@
 		1BC7AB442AB69566009A5AC2 /* NaSuaPorta */ = {
 			isa = PBXGroup;
 			children = (
+				1BD4DD102CD46FF4005AAF90 /* CarouselView */,
 				1BC7AB542AB6A0B9009A5AC2 /* App */,
 				1BC7AB5A2AB6AC66009A5AC2 /* Model */,
 				1BC7AB532AB6A0A5009A5AC2 /* NavigationBar */,
@@ -142,7 +158,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					1BC7AB412AB69566009A5AC2 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -233,6 +249,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -293,6 +310,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
