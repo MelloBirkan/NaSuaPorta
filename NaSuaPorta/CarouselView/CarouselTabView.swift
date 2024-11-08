@@ -20,6 +20,8 @@ struct CarouselTabView: View {
           CarouselItemView(order: order)
         }
       }
+      .frame(height: 260)
+      .tabViewStyle(.page(indexDisplayMode: .always))
     }
 }
 

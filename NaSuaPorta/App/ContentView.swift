@@ -11,11 +11,13 @@ struct ContentView: View {
   var body: some View {
     VStack {
       NavigationBar()
-        .padding(.horizontal)
+        .padding(.horizontal, 15)
       
       ScrollView(showsIndicators: false) {
-        VStack {
+        VStack(spacing: 20) {
           OrderTypeGridView()
+          
+          CarouselTabView()
         }
       }
     }
