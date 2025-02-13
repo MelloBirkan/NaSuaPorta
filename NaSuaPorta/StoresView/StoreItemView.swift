@@ -15,11 +15,7 @@ struct StoreItemView: View {
       Text(store.name)
         .font(.subheadline)
     } icon: {
-      Image(store.logo)
-        .resizable()
-        .scaledToFit()
-        .clipShape(Circle())
-        .frame(width: 50, height: 50)
+      LogoView(image: store.logo)
     }
     .frame(maxWidth: .infinity, alignment: .leading)
   }
