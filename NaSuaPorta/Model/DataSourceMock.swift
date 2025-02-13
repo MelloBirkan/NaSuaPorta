@@ -16,3 +16,12 @@ let ordersMock: [OrderType] = [
   OrderType(id: 6, name: "Bebidas", image: "bebidas"),
   OrderType(id: 7, name: "Gourmet", image: "gourmet"),
 ]
+
+let storesMock: [OrderType] = [
+  OrderType(id: 1, name: "Cavs", image: "Cavs"),
+  OrderType(id: 2, name: "CheddarTatas", image: "CheddarTatas"),
+  OrderType(id: 3, name: "Coffee Co", image: "CoffeeCo"),
+  OrderType(id: 4, name: "FlyBurguer", image: "FlyBurguer"),
+  OrderType(id: 5, name: "FunShakes", image: "FunShakes"),
+  OrderType(id: 6, name: "Nomads", image: "Nomads"),
+]
