@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct StoreItemView: View {
-  let order: OrderType
+  let store: Store
   
   var body: some View {
     Label {
-      Text(order.name)
+      Text(store.name)
         .font(.subheadline)
     } icon: {
-      Image(order.image)
+      Image(store.logo)
         .resizable()
         .scaledToFit()
         .clipShape(Circle())
@@ -26,5 +26,5 @@ struct StoreItemView: View {
 }
 
 #Preview {
-  StoreItemView(order: OrderType(id: 3, name: "Coffee Co", image: "CoffeeCo"))
+  StoreItemView(store:  storesMock[0])
 }

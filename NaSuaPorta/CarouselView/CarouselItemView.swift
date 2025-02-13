@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CarouselItemView: View {
-  let order: OrderType
+  let order: Order
   
   var body: some View {
     Image(order.image)
@@ -19,5 +19,5 @@ struct CarouselItemView: View {
 }
 
 #Preview {
-  CarouselItemView(order: OrderType(id: 1, name: "", image: "fastFood"))
+  CarouselItemView(order: Order(id: 1, name: "", image: "fastFood"))
 }

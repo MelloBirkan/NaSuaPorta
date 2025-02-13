@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct CarouselTabView: View {
-  let ordersMock: [OrderType] = [
-    OrderType(id: 1, name: "Promoção Pets", image: "petOff"),
-    OrderType(id: 2, name: "Fast Food", image: "fastFood"),
-    OrderType(id: 3, name: "Entregas", image: "delivery"),
+  let ordersMock: [Order] = [
+    Order(id: 1, name: "Promoção Pets", image: "petOff"),
+    Order(id: 2, name: "Fast Food", image: "fastFood"),
+    Order(id: 3, name: "Entregas", image: "delivery"),
   ]
   
     var body: some View {

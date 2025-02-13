@@ -13,9 +13,11 @@
 		1BC7AB4D2AB69567009A5AC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC7AB4C2AB69567009A5AC2 /* Preview Assets.xcassets */; };
 		1BC7AB562AB6A0E2009A5AC2 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7AB552AB6A0E2009A5AC2 /* NavigationBar.swift */; };
 		1BC7AB592AB6A6EB009A5AC2 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7AB582AB6A6EB009A5AC2 /* OrderTypeGridView.swift */; };
-		1BC7AB5C2AB6AC83009A5AC2 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7AB5B2AB6AC83009A5AC2 /* OrderType.swift */; };
+		1BC7AB5C2AB6AC83009A5AC2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7AB5B2AB6AC83009A5AC2 /* Order.swift */; };
 		1BC7AB5F2AB6ACF6009A5AC2 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7AB5E2AB6ACF6009A5AC2 /* DataSourceMock.swift */; };
 		1BC7AB612AB6B0BE009A5AC2 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7AB602AB6B0BE009A5AC2 /* OrderTypeView.swift */; };
+		73575FCE2D5E9E97001BAB0C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73575FCD2D5E9E97001BAB0C /* Store.swift */; };
+		73575FD02D5E9EE3001BAB0C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73575FCF2D5E9EE3001BAB0C /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +28,11 @@
 		1BC7AB4C2AB69567009A5AC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1BC7AB552AB6A0E2009A5AC2 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		1BC7AB582AB6A6EB009A5AC2 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
-		1BC7AB5B2AB6AC83009A5AC2 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		1BC7AB5B2AB6AC83009A5AC2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1BC7AB5E2AB6ACF6009A5AC2 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		1BC7AB602AB6B0BE009A5AC2 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		73575FCD2D5E9E97001BAB0C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		73575FCF2D5E9EE3001BAB0C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -126,8 +130,10 @@
 		1BC7AB5A2AB6AC66009A5AC2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1BC7AB5B2AB6AC83009A5AC2 /* OrderType.swift */,
+				1BC7AB5B2AB6AC83009A5AC2 /* Order.swift */,
 				1BC7AB5E2AB6ACF6009A5AC2 /* DataSourceMock.swift */,
+				73575FCD2D5E9E97001BAB0C /* Store.swift */,
+				73575FCF2D5E9EE3001BAB0C /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,13 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC7AB5C2AB6AC83009A5AC2 /* OrderType.swift in Sources */,
+				1BC7AB5C2AB6AC83009A5AC2 /* Order.swift in Sources */,
 				1BC7AB592AB6A6EB009A5AC2 /* OrderTypeGridView.swift in Sources */,
 				1BC7AB5F2AB6ACF6009A5AC2 /* DataSourceMock.swift in Sources */,
 				1BC7AB612AB6B0BE009A5AC2 /* OrderTypeView.swift in Sources */,
+				73575FCE2D5E9E97001BAB0C /* Store.swift in Sources */,
 				1BC7AB482AB69566009A5AC2 /* ContentView.swift in Sources */,
 				1BC7AB462AB69566009A5AC2 /* NaSuaPortaApp.swift in Sources */,
 				1BC7AB562AB6A0E2009A5AC2 /* NavigationBar.swift in Sources */,
+				73575FD02D5E9EE3001BAB0C /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

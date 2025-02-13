@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OrderTypeView: View {
   
-  let orderType: OrderType
+  let orderType: Order
   
   var body: some View {
     VStack(spacing: 5) {
@@ -29,7 +29,7 @@ struct OrderTypeView: View {
 
 struct OrderTypeView_Previews: PreviewProvider {
   static var previews: some View {
-    OrderTypeView(orderType: OrderType(id: 1, name: "Farmácia", image: "farmacia"))
+    OrderTypeView(orderType: Order(id: 1, name: "Farmácia", image: "farmacia"))
       .previewLayout(.sizeThatFits)
   }
 }
