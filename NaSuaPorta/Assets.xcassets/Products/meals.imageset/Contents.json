@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "mellobirkan_Illustration_of_a_variety_of_savory_meals_present_737c78b9-993c-4683-b26e-427b9bf94704_3.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

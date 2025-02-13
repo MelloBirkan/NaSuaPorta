@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "mellobirkan_An_iced_caramel_coffee_in_a_glass_with_ice_cubes__b7571d62-b38b-4a7f-b3d9-195b1bd23970_2.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

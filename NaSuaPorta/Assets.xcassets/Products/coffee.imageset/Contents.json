@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "mellobirkan_A_classic_cappuccino_in_a_ceramic_cup_with_creamy_7eb3a474-ed30-4cc7-9a04-18872667b84d_0.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
