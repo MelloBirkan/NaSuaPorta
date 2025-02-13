@@ -21,6 +21,9 @@ struct StoreItemView: View {
         .clipShape(Circle())
         .frame(width: 50, height: 50)
     }
+    .onTapGesture {
+      print("Tapped on \(order.name)")
+    }
     .frame(maxWidth: .infinity, alignment: .leading)
   }
 }
