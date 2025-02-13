@@ -18,6 +18,8 @@ struct ContentView: View {
           OrderTypeGridView()
           
           CarouselTabView()
+          
+          StoresContainerView()
         }
       }
     }

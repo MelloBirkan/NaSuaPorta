@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct StoresContainerView: View {
-  let stores: [OrderType] = storesMock
-  
   var body: some View {
     VStack {
       Text("Lojas")
         .font(.headline)
+        .frame(maxWidth: .infinity, alignment: .leading)
+      
+      VStack(alignment: .leading, spacing: 30) {
+        ForEach(storesMock) { store in
+          StoreItemView(order: store)
+        }
+      }
     }
+    .padding(20)
   }
 }
 
