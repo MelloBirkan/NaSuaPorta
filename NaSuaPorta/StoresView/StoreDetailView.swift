@@ -9,15 +9,11 @@ import SwiftUI
 
 struct StoreDetailView: View {
   let store: Store
+  @Environment(\.dismiss) var dismiss
 
   var body: some View {
     ScrollView {
       VStack(alignment: .leading ,spacing: 16) {
-        Label("Lojas", systemImage: "cart.fill")
-          .foregroundStyle(.colorRedDark)
-          
-          .padding(.horizontal)
-
         Image(store.headerImage)
           .resizable()
           .scaledToFill()
@@ -64,6 +60,20 @@ struct StoreDetailView: View {
     }
     .navigationTitle(store.name)
     .navigationBarTitleDisplayMode(.inline)
+    .navigationBarBackButtonHidden()
+    .toolbar {
+      ToolbarItem(placement: .navigation) {
+        Button {
+          dismiss()
+        } label: {
+          HStack {
+            Image(systemName: "cart.fill")
+            Text("Lojas")
+          }
+          .foregroundStyle(.colorRedDark)
+        }
+      }
+    }
   }
 }
 
