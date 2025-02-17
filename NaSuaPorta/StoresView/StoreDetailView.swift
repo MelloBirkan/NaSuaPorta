@@ -41,7 +41,7 @@ struct StoreDetailView: View {
 
           Spacer()
 
-          ForEach(0 ..< store.stars) { _ in
+          ForEach(0 ..< store.stars, id: \.self) { _ in
             Image(systemName: "star.fill")
               .foregroundColor(.yellow)
               .font(.caption)
@@ -56,7 +56,8 @@ struct StoreDetailView: View {
         
         VStack(spacing: 16) {
           ForEach(store.products) { product in
-            
+            ProductRowView(product: product)
+              .padding()
           }
         }
       }

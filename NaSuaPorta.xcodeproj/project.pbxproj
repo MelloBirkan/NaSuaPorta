@@ -82,11 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				1BC7AB542AB6A0B9009A5AC2 /* App */,
+				1BC7AB5A2AB6AC66009A5AC2 /* Model */,
 				73575FB92D5E77F5001BAB0C /* StoresView */,
 				1BD4DD102CD46FF4005AAF90 /* CarouselView */,
 				1BC7AB532AB6A0A5009A5AC2 /* NavigationBar */,
 				1BC7AB572AB6A6C4009A5AC2 /* GridView */,
-				1BC7AB5A2AB6AC66009A5AC2 /* Model */,
 				1BC7AB492AB69567009A5AC2 /* Assets.xcassets */,
 				1BC7AB4B2AB69567009A5AC2 /* Preview Content */,
 			);
